@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">RepairOrder</string>
+    <string name="app_name_header">RepairOrderF25</string>
+    <string name="name_label">Name!!!</string>
+    <string name="submit">Submit</string>
+    <string name="tax">Tax</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="order_type">Order Type</string>
+    <string name="repair_order">Repair Order</string>
+    <string name="labor">Labor</string>
+    <string name="parts">Parts</string>
+    <string name="paint">Paint</string>
+    <string name="inspection">Inspection</string>
+    <string name="technitian">Technitian</string>
+    <string name="total">Total</string>
+
+    <string name="technitian_hint">Navi Bountho</string>
+    <string name="inspection_hint">AAAA-BBBB</string>
+    <string name="paint_hint">Cyan</string>
+    <string name="Parts_hint">Brush</string>
+    <string name="order_hint">Painting</string>
+    <string name="labor_hint">Painter</string>
+    <string name="money_hint">$0.0</string>
+
+
+
 </resources>
