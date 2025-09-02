@@ -8,7 +8,7 @@
     tools:context=".RepairOrderActivity">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/totalLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
@@ -17,7 +17,7 @@
         tools:layout_editor_absoluteX="129dp" />
 
     <EditText
-        android:id="@+id/editTextText13"
+        android:id="@+id/typeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -26,11 +26,11 @@
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView2" />
+        app:layout_constraintStart_toEndOf="@+id/typeLabel"
+        app:layout_constraintTop_toTopOf="@+id/typeLabel" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/technitianLabel"
         android:layout_width="141dp"
         android:layout_height="0dp"
         android:layout_marginTop="29dp"
@@ -38,11 +38,11 @@
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toStartOf="@+id/typeLabel"
+        app:layout_constraintTop_toBottomOf="@+id/typeLabel" />
 
     <EditText
-        android:id="@+id/editTextText11"
+        android:id="@+id/laborText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -50,11 +50,11 @@
         android:hint="@string/labor_hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView20" />
+        app:layout_constraintStart_toEndOf="@+id/typeLabel"
+        app:layout_constraintTop_toTopOf="@+id/laborLabel" />
 
     <EditText
-        android:id="@+id/editTextText12"
+        android:id="@+id/technitianText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/technitian_hint"
@@ -62,11 +62,11 @@
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView16" />
+        app:layout_constraintStart_toEndOf="@+id/typeLabel"
+        app:layout_constraintTop_toTopOf="@+id/technitianLabel" />
 
     <EditText
-        android:id="@+id/editTextText9"
+        android:id="@+id/partsText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -74,11 +74,11 @@
         android:hint="@string/Parts_hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView19" />
+        app:layout_constraintStart_toEndOf="@+id/typeLabel"
+        app:layout_constraintTop_toTopOf="@+id/partsLabel" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/paintText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -86,11 +86,11 @@
         android:hint="@string/paint_hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView18" />
+        app:layout_constraintStart_toEndOf="@+id/typeLabel"
+        app:layout_constraintTop_toTopOf="@+id/paintLabel" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/inspectionText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -98,11 +98,11 @@
         android:hint="@string/inspection_hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView15" />
+        app:layout_constraintStart_toEndOf="@+id/typeLabel"
+        app:layout_constraintTop_toTopOf="@+id/inspectionLabel" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/inspectionLabel"
         android:layout_width="141dp"
         android:layout_height="39dp"
         android:layout_marginTop="89dp"
@@ -110,11 +110,11 @@
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toStartOf="@+id/typeLabel"
+        app:layout_constraintTop_toBottomOf="@+id/typeLabel" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/paintLabel"
         android:layout_width="141dp"
         android:layout_height="39dp"
         android:layout_marginTop="148dp"
@@ -122,11 +122,11 @@
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toStartOf="@+id/typeLabel"
+        app:layout_constraintTop_toBottomOf="@+id/typeLabel" />
 
     <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/partsLabel"
         android:layout_width="141dp"
         android:layout_height="39dp"
         android:layout_marginTop="212dp"
@@ -134,11 +134,11 @@
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toStartOf="@+id/typeLabel"
+        app:layout_constraintTop_toBottomOf="@+id/typeLabel" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/laborLabel"
         android:layout_width="141dp"
         android:layout_height="39dp"
         android:layout_marginTop="272dp"
@@ -146,11 +146,11 @@
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toStartOf="@+id/typeLabel"
+        app:layout_constraintTop_toBottomOf="@+id/typeLabel" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Header"
         android:layout_width="483dp"
         android:layout_height="0dp"
         android:layout_marginTop="100dp"
@@ -165,7 +165,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/typeLabel"
         android:layout_width="141dp"
         android:layout_height="39dp"
         android:layout_marginStart="88dp"
@@ -174,11 +174,11 @@
         android:textColor="#404040"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="@+id/Header"
+        app:layout_constraintTop_toBottomOf="@+id/Header" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal"
+        android:id="@+id/subtotalText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="94dp"
@@ -186,11 +186,11 @@
         android:inputType="numberDecimal"
         android:hint="@string/money_hint"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/subtotalLabel"
         tools:layout_editor_absoluteX="202dp" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal2"
+        android:id="@+id/taxText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="52dp"
@@ -198,32 +198,32 @@
         android:inputType="numberDecimal"
         android:hint="@string/money_hint"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/taxLabel"
         tools:layout_editor_absoluteX="202dp" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal3"
+        android:id="@+id/totalText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberDecimal"
         android:hint="@string/money_hint"
-        app:layout_constraintTop_toTopOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="@+id/totalLabel"
         tools:layout_editor_absoluteX="202dp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/subtotalLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="120dp"
         android:text="@string/subtotal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumberDecimal"
+        app:layout_constraintEnd_toStartOf="@+id/subtotalText"
         app:layout_constraintHorizontal_bias="0.773"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/taxLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tax"
@@ -231,13 +231,13 @@
         tools:layout_editor_absoluteY="634dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/submitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="61dp"
         android:text="@string/submit"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/taxLabel"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
